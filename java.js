@@ -1,4 +1,6 @@
-var name=prompt("Escriba aquí su nombre");
-for ( name.Lenght = 0; i < name.Lenght; name.Lenght--){
-document.write ("Adiós" + name.Lenght)
+let nombre = prompt("¿Cuál es tu nombre?");
+let nombreAlReves = "";
+for(let i = nombre.length - 1; i >= 0; i--){
+  nombreAlReves += nombre[i];
 }
+alert("¡Adiós " + nombreAlReves + "!");
