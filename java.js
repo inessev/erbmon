@@ -1,2 +1,5 @@
-var name=prompt("Tu nombre");
-alert ("¡Adiós "+ StringBuilder. reverse(name) +"!");
+var x = 9;
+while (x >= 1) {
+    console.log("hello " + x);
+    x = x - 1;
+}
