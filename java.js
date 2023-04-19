@@ -1,11 +1,9 @@
-alert ("Escriba dos números para obtener el resultado de su suma, resta, multiplicación y división");
-var name1;
-name1 = parseInt(prompt('Escriba aquí su nombre'));
-let nombreAlReves = "";
+let nombre = prompt("Por favor, ingresa tu nombre:");
+let nombreReverso = "";
 
 for (let i = nombre.length - 1; i >= 0; i--) {
-  nombreAlReves += name1[i];
+  nombreReverso += nombre[i];
 }
 
-alert("¡Adiós " + nombreAlReves + "!" );
+alert("¡Adiós " + nombreReverso + "!");
 
